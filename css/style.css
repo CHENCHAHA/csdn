@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1466px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+}
+
+#logo {
+    display: block;
+    width: 80px;
+    height: 44px;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0!important;
+    line-height: 50px;
+}
+
+.container ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+.container #classify {
+    width: 480px;
+    height: 50px;
+}
+
+.search {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.search input {
+    width: 480px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #f5f6f7;
+    outline: none;
+    border: 1px solid #e8e8ed;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.search input:focus {
+    border: 1px solid #fc5531;
+}
+
+.search button {
+    width: 80px;
+    height: 35.3px;
+    background-color: #fc5531;
+    border: none;
+    line-height: 35px;
+    margin-left: -4px;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+}
+
+.search button:hover {
+    background-color: #fc1944;
+}
+
+.personal ul {
+    height: 35px;
+}
+
+.personal ul li a {
+    color: #222226;
+    text-decoration: none;
+}
+
+.personal ul li #create {
+    display: block;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 18px;
+    margin-top: 6px;
+    color: #fff;
+    background-color: #fc5531;
+}
+
+.personal ul li #create:hover {
+    background-color: #fc1944;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(../images/bac.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background .characters {
+    color: #fff;
+    margin: 150px 150px;
+}
+
+.background .characters h5 {
+    color: #fff;
+    padding: 5px 0;
+}
+
+.login {
+    position: absolute;
+    top: 115px;
+    right: 110px;
+    width: 740px;
+    height: 350px;
+    background-color: #ebecef;
+    border-radius: 10px;
+}
+
+.top {
+    width: 100%;
+    height: 300px;
+}
+
+.bottem {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.login_apply {
+    width: 390px;
+    height: 100%;
+}
+
+.login_apply ul {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.login_apply ul li {
+    float: left;
+    color: #999aaa;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+
+.selected {
+    color: #222226!important;
+    border-bottom: 2px solid #222226;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.form form input {
+    width: 310px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: 8px 30px;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+.form a {
+    position: absolute;
+    top: 110px;
+    font-size: 12px;
+    right: 70px;
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+.form a:hover {
+    color: #fc5531;
+}
+
+.form #zi {
+    width: 310px;
+}
+
+.form #zi button {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin: 25px 30px;
+    border-radius: 3px;
+    background-color: #ee9b86;
+}
+
+.login-1 {
+    display: block;
+}
+
+.apply-1 {
+    display: none;
+}
+
+.wx {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+}
+
+.wx h5 {
+    margin: 50px 100px;
+    font-weight: 600;
+}
+
+.wx img {
+    width: 129px;
+    height: 129px;
+    margin-left: 105px;
+    margin-top: -20px;
+}
+
+.wx p {
+    font-size: 12px;
+    margin: 5px 115px;
+}
+
+.bottem p {
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.bottem p a {
+    color: #2e2e2e;
+    text-decoration: underline;
+}
+
+.bottem p a:hover {
+    color: #fc5531;
+}
+.footer {
+margin: 0 auto;
+
+}
+.footer p {
+    color: #999aaa;
+    font-size: 14px;
+    margin: 10px 489px;
+}
+
+.footer p:nth-child(2) {
+    margin: 5px 600px;
+}
