@@ -67,27 +67,27 @@
             <div class="top">
                 <div class="login_apply">
                     <ul class="clearfix" id="lan">
-                        <li class="selected">登录账号</li>
+                        <li class="selected" id="login1">登录账号</li>
                         <li>注册账号</li>
                     </ul>
                     <div class="biao">
                         <div class="form">
                             <form>
-                                <input type="text" placeholder="手机号/邮箱/用户名"></br>
-                                <input type="password" placeholder="密码">
+                                <input type="text" placeholder="手机号/邮箱/用户名" id="telelogin"></br>
+                                <input type="password" placeholder="密码" id="passwordlogin">
                                 <a href="#">忘记密码</a>
                                 <div id="zi">
-                                    <button type="submit">登录</button>
+                                    <button type="button" id="login_button">登录</button>
                                 </div>
                             </form>
                         </div>
                         <div class="form apply-1">
                             <form>
-                                <input type="text" placeholder="请输入手机号"></br>
-                                <input type="password" placeholder="请输入您想好的密码">
+                                <input type="text" placeholder="请输入手机号" id="textreg"></br>
+                                <input type="password" placeholder="请输入您想好的密码" id="passwordreg">
                                 <a href="#">忘记密码</a>
                                 <div id="zi">
-                                    <button type="submit">注册</button>
+                                    <button type="button" id="reg">注册</button>
                                 </div>
                             </form>
                         </div>

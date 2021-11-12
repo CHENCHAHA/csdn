@@ -217,6 +217,10 @@ header {
     background-color: #ee9b86;
 }
 
+.form #zi button:hover {
+    background-color: #fc5531;
+}
+
 .login-1 {
     display: block;
 }
@@ -263,16 +267,20 @@ header {
 .bottem p a:hover {
     color: #fc5531;
 }
-.footer {
-margin: 0 auto;
 
+.footer {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
+
 .footer p {
     color: #999aaa;
     font-size: 14px;
-    margin: 10px 489px;
+    text-align: center;
 }
 
-.footer p:nth-child(2) {
+
+/* .footer p:nth-child(2) {
     margin: 5px 600px;
-}
+} */
